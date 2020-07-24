@@ -15,6 +15,7 @@ import {
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faTwitter, faGoodreads } from '@fortawesome/free-brands-svg-icons'
+import resume from './resume.pdf'
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,13 +30,13 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="#">About</NavLink>
+              <NavLink href="/">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Blog</NavLink>
+              <NavLink href="/blog">Blog</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Resume</NavLink>
+              <NavLink href={resume} target="_blank">Resume</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
