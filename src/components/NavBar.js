@@ -24,13 +24,13 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light expand="md">
+      <Navbar color="faded" sticky-top light expand="md">
         <NavbarBrand href="/">HN</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">About</NavLink>
+              <NavLink href="/about">About</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/blog">Blog</NavLink>

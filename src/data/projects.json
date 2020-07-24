@@ -1,0 +1,183 @@
+[
+
+    {
+        "title": "Bookmark",
+        "date": "2020-04-11",
+        "description": "Final project: a book tracking web app using React, JavaScript, Laravel, Firebase, and GoogleCloud",
+        "link": "https://bookmark-32e51.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Laravel",
+            "Firebase", 
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Sorting Algorithms",
+        "date": "2020-05-25",
+        "description": "A dynamically rendered web page to show and become familiar with various sorting algorithms. Instructions included in Github repo for outside contributions.",
+        "link": "https://sorting-algorithms-59256.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Quizzie",
+        "date": "2020-05-17",
+        "description": "A mobile-first quiz app using React, JavaScript, Firebase, and a trivia API",
+        "link": "https://quizzie-61c5c.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Puzzle Slider",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, Bootstrap, & Firebase",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "Restaurant Menu",
+        "date": "2020-04-11",
+        "description": "Dynamic mock restaurant menu utilizing a menu API, refactored using React, JavaScript, and Firebase",
+        "link": "https://restaurant-menu-bfb13.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "To-do List",
+        "date": "2020-03-30",
+        "description": "To-do List app refactored using React, JavaScript, Laravel, & GoogleCloud",
+        "link": "https://to-do-app-fb7fd.web.app/",
+        "stack": [
+            "React", 
+            "Firebase",
+            "JavaScript", 
+            "Bootstrap",
+            "Laravel",
+            "MySQL"
+        ]
+    },
+
+    {
+        "title": "Tic-Tac-Toe",
+        "date": "2020-04-11",
+        "description": "Dynamic Tic-Tac-Toe game refactored using React and JavaScript, utilizing state",
+        "link": "https://tic-tac-toe-774e2.web.app/",
+        "stack": [
+            "React",
+            "JavaScript", 
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "Calculator",
+        "date": "2020-04-11",
+        "description": "Mac calculator clone refactored using React, JavaScript, and Firebase",
+        "link": "https://calculator-b0efa.web.app/",
+        "stack": [
+            "React",
+            "JavaScript", 
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "Bouncing Balls",
+        "date": "2020-04-11",
+        "description": "A webpage that simulates bouncing balls on an HTML canvas using physics, math, and JavaScript Objects and Classes",
+        "link": "https://hayden-nesbit.github.io/bouncing-balls/",
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Weather App",
+        "date": "2020-02-25",
+        "description": "Interactive weather app refactored using React and JavaScript, utilizing a weather API",
+        "link": "https://weather-app-8176c.web.app/",
+        "stack": [
+            "React", 
+            "Bootstrap", 
+            "JavaScript",
+            "Firebase"
+        ]
+    },
+
+
+    {
+        "title": "Mind-Reader",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app refactored using React and JavaScript",
+        "link": "https://mind-reader-60c3a.web.app/",
+        "stack": [
+            "React", 
+            "Bootstrap", 
+            "JavaScript",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "Campaign Website",
+        "date": "2020-02-15",
+        "description": "A mock campaign website featuring a fictional character utilizing Bootstrap",
+        "link": "https://hayden-nesbit.github.io/campaign-components/",
+        "stack": [
+            "HTML", 
+            "CSS", 
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Countdown Timer",
+        "date": "2020-05-17",
+        "description": "A countdown timer with user date setting via react-date-picker",
+        "link": "https://countdown-timer-d0024.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "Digital Clock",
+        "date": "2020-02-15",
+        "description": "A webpage that displays the current time in digital clock format, refactored using React.",
+        "link": "https://digital-clock-850c2.web.app/",
+        "stack": [
+            "React", 
+            "CSS", 
+            "JavaScript",
+            "Firebase",
+            "GitHub"
+        ]
+    }
+
+    
+]

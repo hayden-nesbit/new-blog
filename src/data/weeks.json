@@ -1,0 +1,390 @@
+[
+    {
+        "title": "Job Search",
+        "subtitle": "Ionic-React Project",
+        "date": "2020-07-06",
+        "month": "Jul",
+        "link": "https://foodie-33619.web.app/",
+        "paragraphs": [
+            "",
+            "I was recently given a coding prompt to assess my development skills. The prompt was for a restaurant crowd-sourcing app. The tech-stack for the app included TypeScript and Ionic--a language and framework I did not know--and I had one week to complete it. (If you want to see the app, click the link above.",
+            "",
+            "I ended up completing it in a few days, though I struggled with various aspects of TypeScript and Ionic. I'm a big fan of React, so when I saw Ionic and React can be used together, I was excited. But one major difference--one I never did figure out--was passing props from one component to another. Unfortunately, my 'completed' app is a single component project due to my inability to pass props. However, this is definitely something I'm going to research further and figure out.",
+            "",
+            "Besides the props issue, I also hit some other speed bumps: TypeScript is insistent on having you declare 'types' when empty variables are first initialized. And when working with arrays of objects, this was a little tricky at first. But in the end, I have a functioning app with a tech stack I didn't know a week ago. This was a great learning experience and sparked my interest in both TypeScript and Ionic. I look forward to learning more, going back to this project's repo, and refactoring as I get past some of the things that stumped me."
+        ],
+        "stack": []
+    },
+    {
+        "title": "Week 13",
+        "subtitle": "Post-Bootcamp",
+        "date": "2020-06-08",
+        "month": "Jun",
+        "paragraphs": [
+            "Have your planned out iteration 2 of your final project yet? Completed? Iteration 3?!",
+            "I've gone through at least 2 interations of my final projects. Spent the past week fixes the last of a few bugs. As it stands now, it's all working code, though not as responsive as I'd like. I'd like to add a few new features over the coming weeks as well.",
+            "Have you caught up and finished every item from your backlog (any unfinished projects, bugs, things you just know need to be cleaned up)?",
+            "The backlog for my final project is complete. There's one nagging bug that I'm still working on. Outside of that, I'm planning to start a couple side projects to add to my GitHub!",
+            "Added any new projects to your resume / GitHub yet?",
+            "Hopefully by weeks end I'll have atleast one new project in the works. ",
+            "How many jobs have you applied to?",
+            "So far I've applied to 4 jobs. I plan to follow up with each this week and continue searching and applying to more.",
+            "Have you been refining your resume / cover letter for the job?",
+            "Yes. I have a resume I feel good about, and am taking the time to update cover letters for each job applied for.",
+            "Have you been trying to learn the tech stack / language that a specific company uses?",
+            "Not focused on any specific company, but I've been diving deeper into React. I hope to really master it. Beyond that, I've read about TypeScript being a popular language, so I want to atleast investigate that!"
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Firebase",
+            "React",
+            "Bootstrap",
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Git"
+        ]
+    },
+    {
+        "title": "Week 12",
+        "subtitle": "Bootcamp Recap",
+        "date": "2020-05-23",
+        "month": "May",
+        "paragraphs": [
+            "What was your experience like overall in the Bootcamp?",
+            "I had a great experience! I really loved the bootcamp, and would have loved it more had we been able to stay in-person. I've recommended it to multiple people (one's even already admitted for next round!).",
+            "When you look back on this blog, where do you see yourself growing the most?",
+            "The areas I've grown the most are: 1) Conceptually, being able to pseudo code an entire project and problem solve throughout and 2) Specifically, dynamic rendering within React. React has been one of the highlights of the bootcamp for me; I love working in it and I think I've really grown a lot in understanding and using it."
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Firebase",
+            "React",
+            "Bootstrap",
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Git"
+        ]
+    },
+    {
+        "title": "Week 11",
+        "subtitle": "FINAL PROJECT: Sprint 2",
+        "date": "2020-05-16",
+        "month": "May",
+        "paragraphs": [
+            "How have you progressed and struggled during the time while building your Final Project?",
+            "Building the final project has been a lot of fun. The previous project set me up really well--the two are quite similar so I had a lot to build on. I'd say the main struggle centered around the lack of group cohesion. Everyone's doing their own thing at this point, so getting help has become trickier, and we're not as likely to have the same issue.",
+            "When was the last time your pseudo coded? What has changed in your method from then to now?",
+            "I pseudo code every day! The evolution of my process of pseudo coding has gone from very little, and only before a project to a lot, and interspersed throughout different phases of the project as I encounter issues. This shift has helped me work through problems more easily, and complete projects more quickly."
+        ],
+        "stack": [
+            "Laravel",
+            "MySQL",
+            "React"
+        ]
+    },
+    {
+        "title": "Week 10",
+        "subtitle": "FINAL PROJECT: Sprint 1",
+        "date": "2020-05-09",
+        "month": "May",
+        "paragraphs": [
+            "What are your thoughts about the Final Project?",
+            "After sprint 1 complete, I'm excited about the final project. I think it solves a real (albeit small) problem in an area I'm passionate about and I feel confident that I'm equipped with the tools to make it happen.",
+            "What do you think you will struggle with in completing the Final Project? Where will you excel?",
+            "So far my main struggle has been setting up the necessary database. Outside of that, I think design will be a strong point of this project. Part of this is due to the Google Books API I'm using--it's a great resource that provides a lot of quality data.",
+            "What are your opinions on the Agile Methodology? Do you think it takes up time? Do you think large scale projects can be completed without it?",
+            "I'm sold on Agile development! It's made a huge difference in terms of preparation and providing a structure for work. There's been some bumps--learning how to write stories, point them accurately, implementing story spikes, etc.--but it's definitely worth the time, all the more important as the size of the project grows. "
+        ],
+        "stack": [
+            "Laravel",
+            "MySQL",
+            "React"
+        ]
+    },
+    {
+        "title": "Week 9",
+        "subtitle": "LARAVEL, MySQL, & REACT",
+        "date": "2020-05-03",
+        "month": "May",
+        "paragraphs": [
+            "What are your thoughts about Laravel and React?",
+            "I really like them together. I loved React and am happy to be diving back in, and I'm getting more familiar with Laravel. The two together seem like they can make some powerful things happen!",
+            "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
+            "Passing props and state within React components really confused me for a while, but now it's one of my favorite things about it. I still struggle at times, but it makes a lot of sense. I'm particularly excited about getting more comfortable using state/props within reactstrap components as well.",
+            "Compared to weeks three and six, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+            "I'm fairly solid on my final project idea. It's been forming since my experiences in grad school, as well as some of the API and React work we've done. In seminary, I always struggled to stay on top of all the required reading with all the other assignments--I wanted a way to choose a book or books, set a desired end date, and be given a daily reading plan with pages per day in order to hit the goal. I'd like to make this app with a Google Books API to be able to not only keep track of WHICH books you're reading, but be able to set an end date and make sure you read enough each day to get there.",
+            "What cool new features have you learned about from the languages and frameworks you already know that will improve your workflow / add slick features to your final project?",
+            "I really love bootstrap, and am slowly getting into reactstrap. And this week, getting into Laravel, it seems there's a lot of really cool/helpful built-ins in terms of login/registration packages that will be very useful.",
+            "How many jobs have you applied to?",
+            "None yet, but I've done a lot of work on LinkedIn, my resume, and have corresponded with a friend who is planning to recommend me for a position where he currently works.",
+            "Look back on the old questions to see if any of them would be good to answer this week compared to week 1.",
+            ""
+        ],
+        "stack": [
+            "Laravel",
+            "MySQL",
+            "React"
+        ]
+    },
+    {
+        "title": "Week 8",
+        "subtitle": "LARAVEL, PHP, & MySQL",
+        "date": "2020-04-26",
+        "month": "Apr",
+        "paragraphs": [
+            "What are your thoughts about how far you have come? How has your Digital Literacy, Computational Thinking, and Adoption of Coding Culture increased?",
+            "Considering the short amount of time it's been, I think I've come very far. To think back just a few short weeks ago, I couldn't imagine even getting something to display on a screen. Now I have a decent grasp on various languages and frameworks, best practices within the coding world, as well as an increased capacity to think computationally.",
+            "How do you plan on continuing to grow those areas?",
+            "In the short term, I plan to continue to be diligent in learning for the rest of the bootcamp. Beyond that, I have several books flagged as to-read, as well as new relational avenues within the coding community to continue to get exposure, learn, and stay connected to new people, ideas, and best practices.",
+            "What are you struggling with the most in the Tech Stack so far and why?",
+            "Laravel has been the biggest challenge so far. I think this is mainly due to the complexity and breadth of it. There's A LOT to take in, become familiar with, and implement.",
+            "What were your main takeaways from the career fair?",
+            "",
+            "After making it through the tech stack, where do you think your current gaps are?",
+            "Looking back at the tech stack, I'd say my biggest gap is still pseudo-coding. I feel relatively confident with each language and framework in the stack, however, I'm limited in my use and implementation because I consistently fail to give solid preparation and thought to pseudo-coding."
+        ],
+        "stack": [
+            "Laravel",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Week 7",
+        "subtitle": "PHP, MySQL, & JAVASCRIPT",
+        "date": "2020-04-18",
+        "month": "Apr",
+        "paragraphs": [
+            "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
+            "PHP is very powerful, but definitely has it's issues. I was surprised at how easily vulnerabilities can be taken advantage of with the program.",
+            "What do you want to know more about PHP and server side programming?",
+            "I'm very interested in server side programming. I'm not sure exactly what it is I want to know more about--perhaps just the process over all. I'm fascinated by the 'behind-the-scenes' nature of this aspect of programming.",
+            "How has learning PHP been? What are some similarities and differences you can see with JS?",
+            "Overall, learning PHP hasn't been too difficult. I appreciate the similarities to JS (especially React), but did struggle with the varying syntax and little differences in thinking.",
+            "What if you had started with PHP instead of JS?",
+            "I think I would have been relieved once I learned JS! So, I'm glad we learned them in the order we did. I think learning PHP was as easy as it was due to my familiarity with JS.",
+            "Are there any exercises you think would be improved if you refactored them to PHP from JS? Do you plan to?",
+            "",
+            "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project.",
+            ""
+        ],
+        "stack": [
+            "PHP",
+            "MySQL",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Week 6",
+        "date": "2020-04-05",
+        "month": "Apr",
+        "subtitle": "REACT, FIREBASE, & JAVASCRIPT",
+        "paragraphs": [
+            "What do you like about React?",
+            "I'm really starting to love how components work. It makes a lot of sense to have JavaScript logic, state, etc. in one component, export that component, and import it elsewhere to build something.",
+            "What are you struggling with the most about React?",
+            "At this point I think my biggest struggle isn't with React specifically (I feel confident with it), but using JavaScript within it.",
+            "How has React caused you to rethink your existing projects?",
+            "React definitely allows for things to be much more dynamic and efficient. I've already seen how old projects could be simplified using the component structure.",
+            "What is your biggest win this week? Halfway through!",
+            "My biggest win was getting the Puzzle Slider completed for Demo Day. I was overwhelmed at first; the project had a lot of factors to consider, but struggling through it (and getting a lot of help) helped me grow in my understanding of confidence level.",
+            "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+            " "
+        ],
+        "stack": [
+            "React",
+            "Firebase",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Week 5",
+        "subtitle": "REACT & FIREBASE",
+        "date": "2020-03-29",
+        "month": "Mar",
+        "paragraphs": [
+            "Why are CLIs scary?",
+            "I think what scares me most about CLIs is the fact that you don't 'see' a lot of what you're doing. You could run a line  of code from the terminal and it upload/change/delete something from your system and you not know it (if you weren't tracking with what was happening)",
+            "What have you learned about CLIs?",
+            "I've learned that they can be really efficient. For example, it's much quicker to add, save, push, and edit using a few lines on the command line rather than going to GitHub and editing/merging/etc.",
+            "Would you build a CLI? What would it do?",
+            "I can't imagine building one, but if I did ..",
+            "List a some ideas that without a Framework, would take you a long time to code",
+            " ",
+            "How do you feel now (week 5) compared to when you started?",
+            "At this point in the bootcamp I feel fairly confident. I really like React and Bootstrap and feel like I'm growing a lot and understand what I'm doing. I feel comfortable in the command line, and I enjoy JavaScript but feel less confident there--I can figure out how to make things work, but not always the best way."
+        ],
+        "stack": [
+            "React",
+            "Firebase",
+            "JavaScript",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "Week 4",
+        "subtitle": "NPM & REACT",
+        "date": "2020-03-22",
+        "month": "Mar",
+        "paragraphs": [
+            "Why do you see JavaScript Frameworks and Libraries useful or hard to use?",
+            " ",
+            "What Frameworks or Libraries are you interested in learning more about?",
+            " ",
+            "Find one emerging JavaScript tool that you would like to learn more about or use in your final project."
+        ],
+        "stack": [
+            "React",
+            "JavaScript",
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Week 3",
+        "subtitle": "JAVASCRIPT & DESIGN",
+        "date": "2020-03-15",
+        "month": "Mar",
+        "paragraphs": [
+            "What are three ideas you might want to do for your final project?",
+            "I'm having difficulty thinking about potential final project ideas with only being into week 3 of the bootcamp. However, two things I'm personally interested are poetry and literature, as well as personal development in general. It would be interesting to play with an app that could generate custom reading or development 'plans' based on a users given criteria (e.g. 'I have 10 minutes a day', 'I'd like to learn about 'x' topic', 'I'm more of a visual learner', etc.). Then, based on this criteria, generate a plan, with 'due dates' and an end date (set by the user) to work through the generated material.",
+            "Why do you see JavaScript useful or hard to use?",
+            "JavaScript is incredibly useful! Being able to make function that store multiple 'steps' or calculations of a problem, that is then able to be called throughout the code without repeating the initial steps is a huge time saver, as well as opens up endless possibilities for developing 'smart' programs.",
+            "What aspects about JavaScript are you interested in learning more about?",
+            "As I wrap my head around arrays more and more, I'm beginning to see their utility and potential. All kinds of things can be stored in and accessed via arrays. This is a really useful tool for user input, storage, and retrieval."
+        ],
+        "stack": [
+            "JavaScript",
+            "Bootstrap",
+            "CSS",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Week 2",
+        "subtitle": "JAVASCRIPT & DESIGN",
+        "date": "2020-03-08",
+        "month": "Mar",
+        "paragraphs": [
+            "What did you learn about that helped you understand the development process?",
+            "Having two Demo Days under our belts, I've seen more each time the importance of understanding and being able to communicate one's code. The development process isn't complete when the code is pushed to GitHub, but really, it's complete when I can understand each line of code and clearly communicate the process to others.",
+            "What does it mean to develop good code?",
+            "One thing that I'm starting to catch on to is the importance of 'DRY' code ('Don't Repeat Yourself'). The programming languages I'm learning are smart enough to not need repeated lines throughout the code! Learning how to 'reuse' lines of code throughout a project is one important element of good, efficient code.",
+            "What does it mean to be a good developer?",
+            "Personally, I think being a good developer comes down to two things: excellence and attention. The effort put into development, as well as the code itself, should be excellent. It should be efficient, complete, and without shortcuts. But the project as a whole should always give attention to the specific needs and desires of the customer. Excellent code that isn't useful to the customer isn't excellent!",
+            "What is one thing that programmers hate doing?",
+            "Repeating themselves! This is why 'DRY' code is such an emphasis in programming; time saving by reusing code throughout a project is a great practice!"
+        ],
+        "stack": [
+            "JavaScript",
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Week 1",
+        "subtitle": "JAVASCRIPT, BOOTSTRAP, & DESIGN",
+        "date": "2020-03-01",
+        "month": "Mar",
+        "paragraphs": [
+            "What did you learn about that helped you understand more about design?",
+            "The design acronym (C.R.A.P.) about contrast, repetition, alignment, and proximity was really helpful. Being married to a graphic designer I often get a lot of help in the way things I create should look, but this overview helped me understand better for myself. I especially resonated with the contrast piece. I tend to think about contrast only in terms of color; using contrast in other ways--fonts, shapes, etc.--was a new way to think about good design.",
+            "What do you want to continue learning about that helps you understand design better?",
+            "Two things piqued my interest from our lesson on design: 1) the difference between geometric and visual center, and 2) how to guide the eye using design. These two things are incredibly important in good design, as they take into account not only what I think looks good, but how others experience the design.",
+            "What Design aspects are important to you as a user and as a developer?",
+            "Personally, both alignment and proximity are important to me--both as a user and developer. I find these two things are some of the most noticeable things to the eye. Even if one doesn’t have the vocabulary to explain them, I think most have an intuition for things being misaligned and poorly spaced.",
+            "What is the number one thing that held you back this week? Why?",
+            "This week was actually fairly straight forward and fun. Bootstrap is great and I spent a lot of time using templates, playing around, extending, and implementing ideas. This approach helped me get familiar with a lot of Bootstraps elements and how they work. However, I think I was “held back” in the sense that I may have benefitted in the long run more had I started from scratch.",
+            "What is one thing you would like to get better at in bootcamp?",
+            "I think it’s going to be important for me personally to not have perfection as my goal, but rather progress. I prefer things neat, clean, and finished. But I also value learning and know that the learning process is seldom neat or clean, and never finished."
+        ],
+        "stack": [
+            "Bootstrap",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Prework Week 4",
+        "subtitle": "JAVASCRIPT",
+        "date": "2020-02-23",
+        "month": "Feb",
+        "paragraphs": [
+            "What are yourWhat was one thing you liked and disliked about each of the new topics covered in prework?",
+            "While I liked all the topics covered in prework, there were unique things about each that I found difficult. GitHub was easy to begin working with, but communicating between GitHub and the terminal was challenging. HTML and CSS as a pair were fairly straightforward in how they relate to one another, but I struggled particularly with padding and margin within CSS. JavaScript has been both the most likeable and most difficult topic; I've love the logical thinking required and how all the pieces fit together, however, there are a lot of pieces and learning them all has been overwhelming.",
+            "What was helpful?",
+            "A few things helped me during the prework. The first was the #help channel in Slack. I asked a lot of questions and learned a lot from the instructors, as well as the other students. The other help was learning about pseudo-coding. I can see how this will be invaluable when approaching bigger, more complicated projects--especially involving JavaScript.",
+            "What hindered your progress?",
+            "I didn't feel too hindered throughout prework, however, I think I could have jumped into the projects and assignments sooner than I did each week. I spent a good bit of time reading documentation and trying to understand thoroughly before getting my hands dirty. I think I would have been helped more by getting into the code myself instead of reading so much.",
+            "How did you overcome challenges?",
+            "The challenges during prework were overcome by plodding. By that I mean simply coming back to the problems each day, giving them time and effort, and doing the work necessary to move forward. I don't think there's going to be any magic bullets with web development but rather--like anything else--it's going to come down to showing up each day and taking a few steps forward."
+        ],
+        "stack": [
+            "JavaScript",
+            "CSS",
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Prework Week 3",
+        "subtitle": "HTML, CSS, & JAVASCRIPT",
+        "date": "2020-02-16",
+        "month": "Feb",
+        "paragraphs": [
+            "What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?",
+            "I really like how HTML, CSS, and JavaScript work together. It makes conceptual sense to me, and the little bit I’ve grasped thus far has enabled me to do some pretty cool things with my blog (the dropdown navbar and footer icons in particular). I’m a little concerned about my ability to keep all the sheets “clean”--creating various classes to make all the features move how I want seems to get out of hand at times--but I’m sure that will come with time!",
+            "What are some objects that your blog incorporates?",
+            "In terms of the three tools’ ability to provide user experience, I’m excited to keep learning. JavaScript in particular seems to be a really powerful tool with endless possibilities for functionality and user experience. So far, my blog incorporates various objects to improve user experience. The main object being the navigation bar. It’s HTML and CSS code enable it to change color on click and hover, as well as incorporate dropdown sections under “Projects” and “Blog”. Also, the blog features a footer which contains two icons linked to my personal LinkedIn profile and Twitter page. In the future, I hope to implement JavaScript to loop through text on the home page (“Learning HTML”, “Learning CSS”, “Learning JavaScript”, etc.)."
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Prework Week 2",
+        "subtitle": "HTML, CSS, & PSEUDO-CODE",
+        "date": "2020-02-09",
+        "month": "Feb",
+        "paragraphs": [
+            "What are your thoughts on pseudo coding?",
+            "Pseudo code is very helpful. Its use of fuller language reminds me of formulas in spreadsheets--where I’ve had most of my experience. The language itself seems very logical which is helpful for me. The high-level, descriptive nature of pseudo code is helpful for me as I come at programming as a beginner; having a tool like this to layout big-picture components with easy to understand comments will be a huge help!",
+            "What are you struggling with?",
+            "It’s less of a specific struggle and more like walking around in the dark--I spent a good bit of time looking at code for certain features, manipulating it, seeing what changed and what didn’t, and trying to understand everything. This poking around feels a little like a “struggle” but it’s also leading to some helpful discoveries and, I hope, a better working grasp on the overall process.",
+            "What are you excited or eager to learn more about?",
+            "After playing around with this blog for a day or so, experimenting with fixed navigation bars, margin, gradient colors, etc., I’m eager to become more familiar with the capabilities of CSS. Specifically, I’m excited to learn more about the box model and how it can be used to incorporate features like drop down navigation bars and aside content. Wading into CSS this past week has increased my interest in and awareness of all the websites I frequent--I’m gaining a better eye for good design and usability!"
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "GitHub"
+        ]
+    },
+    {
+        "title": "Prework Week 1",
+        "subtitle": "GIT & GITHUB",
+        "date": "2020-02-02",
+        "month": "Feb",
+        "paragraphs": [
+            "Was your first week what you expected? Why? Why not?",
+            "Week one flew by--but was not without moments that felt painfully long (fumbling through Git, navigating the Command Line, etc.). I expected to struggle, and to feel a little overwhelmed, but wasn't sure how I would struggle. That's where I've been living: swimming in questions I didn't know I needed to ask!",
+            "What are you struggling with?",
+            "In some sense I feel like everything's a struggle (re: swimming in questions!). But specifically, I'm still tiptoeing my way around GitHub, poking around in the Command Line, and crossing my fingers that repo's magically appear!",
+            "What are you excited or eager to learn more about?",
+            "With the Command Line feeling a little more like home each day, I'm excited to continue uncovering its power. Beyond the CL, I'm eager to jump into html--the little bit I've picked up thus far has me itching to dive in deeper! (Specifically, how to make this text not run the length of the page!)"
+        ],
+        "stack": [
+            "Git",
+            "GitHub"
+        ]
+    }
+]
