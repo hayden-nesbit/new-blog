@@ -5,11 +5,13 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import "./Blog.css"
+import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
 
 
 function BlogPosts() {
 
     const [currentTime, setCurrentTime] = useState(null)
+    const [showPost, setShowPost] = useState(blogWeeks)
 
     useEffect(() => {
         setCurrentTime(new Date())
@@ -26,8 +28,9 @@ function BlogPosts() {
         })
     }
 
+
     function splitStack(stack) {
-        return stack.map((item) => {
+        return stack.map((item, index) => {
             let icon = ''
             if (item === "React") {
                 icon = <FontAwesomeIcon style={{ color: "#61DBFB" }} icon={faReact} />
@@ -64,7 +67,7 @@ function BlogPosts() {
             }
 
             return (
-                <div className="col-sm-2 fa-lg mt-2 pl-0 d-inline" >
+                <div key={index} className="col-sm-2 fa-lg mt-2 pl-0 d-inline" >
                     {icon}
                 </div>
             )
@@ -72,31 +75,36 @@ function BlogPosts() {
         })
     }
 
+    function handleClick(month) {
+        let archive = blogWeeks.filter(item => item.month === month)
+        console.log(archive)
+        setShowPost(archive)
+    }
 
-    const blogPosts = blogWeeks.map((item, index) => {
+    let blogPosts = showPost.map((item, index) => {
         const formattedDate = new Date(item.date)
         const difference = Math.floor(((currentTime - formattedDate) / 1000 / 60 / 60 / 24) << 0)
 
         return (
-            <>
+            <div key={index}>
                 <h2 className="blog-post-title sticky-top bg-white">{item.subtitle}</h2>
                 <h6 key={index}>{splitStack(item.stack)}</h6>
                 <p className="blog-post-meta">{difference} day{difference === 1 ? "" : 's'} ago</p>
-                <div key={index} className="mb-5">
+                <div className="mb-5">
                     {item.link ? <a href="https://foodie-33619.web.app/" target="_blank">Foodie App</a> : null}
                     {splitParas(item.paragraphs)}
                     <hr />
                 </div>
-            </>
+            </div>
         )
     })
-
-    const archives = ["January 2020", "February 2020", "March 2020", "April 2020", "May 2020", "June 2020", "July 2020", "August 2020", "September 2020", "October 2020", "November 2020", "December 2020"]
+  
+    const archives = ["Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020", "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020"]
     const archivePosts = archives.map((item, index) => {
         return (
-            <>
-                <a href="/blog">{item}</a><br />
-            </>
+            <div key={index}>
+                <a href="/blog" onClick={() => handleClick(item)}>{item}</a><br />
+            </div>
         )
     })
 
