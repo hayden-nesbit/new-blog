@@ -1,12 +1,13 @@
 import React from 'react';
 import ProjectCarousel from "./components/ProjectCarousel"
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <div className="container text-center p-5">
-      <ProjectCarousel />
-    </div>
-
+    <>
+      <NavBar />
+     
+    </>
   );
 }
 
