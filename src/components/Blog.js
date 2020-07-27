@@ -5,13 +5,12 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import "./Blog.css"
-import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
 
 
 function BlogPosts() {
 
     const [currentTime, setCurrentTime] = useState(null)
-    const [showPost, setShowPost] = useState(blogWeeks)
+    const [showPost, setShowPost] = useState([])
 
     useEffect(() => {
         setCurrentTime(new Date())
@@ -77,11 +76,12 @@ function BlogPosts() {
 
     function handleClick(month) {
         let archive = blogWeeks.filter(item => item.month === month)
-        console.log(archive)
         setShowPost(archive)
     }
 
-    let blogPosts = showPost.map((item, index) => {
+    let postView = showPost.length > 0 ? showPost : blogWeeks
+
+    let blogPosts = postView.map((item, index) => {
         const formattedDate = new Date(item.date)
         const difference = Math.floor(((currentTime - formattedDate) / 1000 / 60 / 60 / 24) << 0)
 
@@ -98,12 +98,12 @@ function BlogPosts() {
             </div>
         )
     })
-  
+
     const archives = ["Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020", "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020"]
     const archivePosts = archives.map((item, index) => {
         return (
             <div key={index}>
-                <a href="/blog" onClick={() => handleClick(item)}>{item}</a><br />
+                <a href="#" onClick={() => handleClick(item)}>{item}</a><br />
             </div>
         )
     })
