@@ -11,6 +11,7 @@ function BlogPosts() {
 
     const [currentTime, setCurrentTime] = useState(null)
     const [showPost, setShowPost] = useState([])
+    const [noPost, setNoPost] = useState(false)
 
     useEffect(() => {
         setCurrentTime(new Date())
@@ -77,6 +78,12 @@ function BlogPosts() {
     function handleClick(month) {
         let archive = blogWeeks.filter(item => item.month === month)
         setShowPost(archive)
+
+        if (archive.length === 0) {
+            setNoPost(true)
+        } else {
+            setNoPost(false)
+        }
     }
 
     let postView = showPost.length > 0 ? showPost : blogWeeks
@@ -99,6 +106,9 @@ function BlogPosts() {
         )
     })
 
+
+    console.log(blogPosts)
+
     const archives = ["Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020", "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020"]
     const archivePosts = archives.map((item, index) => {
         return (
@@ -112,7 +122,7 @@ function BlogPosts() {
         <div className="container">
             <div className="row">
                 <div id="blogpost" className="col-md-8">
-                    {blogPosts}
+                    {noPost === true ? <h3 className="text-muted"><i>No posts</i></h3> : blogPosts}
                 </div>
                 <div className="col-md-4 sticky-top">
                     <h4 className="font-italic">Archives</h4>
